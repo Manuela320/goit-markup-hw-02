@@ -1,0 +1,125 @@
+:root {
+  --link-color: #2e2f42;
+  --font-family: "Roboto", sans-serif;
+  --second-family: "Raleway", sans-serif;
+}
+
+* {
+  font-family: var(--font-family);
+  font-weight: 400;
+}
+
+a:link,
+a:visited {
+  cursor: pointer;
+}
+
+.global-header {
+  background-color: #ffffff;
+}
+
+.logo-header {
+  font-family: var(--second-family);
+  font-weight: 800;
+  color: #2e2f42;
+}
+
+.logo-header::before {
+  content: "WEB";
+  color: #4d5ae5;
+  font-family: var(--second-family);
+  font-weight: 800;
+}
+
+.global-header .main-nav a,
+.global-header .main-nav:visited {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.global-header .main-nav a:hover {
+  color: var(--link-color_hover);
+}
+
+a {
+  text-decoration: none;
+}
+
+.global-header .contact,
+.global-header .contact:visited {
+  color: var(--link-color);
+  font-size: 1em;
+  line-height: 1.5em;
+}
+
+.solutions-section .solutions-title {
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.solutions-section {
+  background-color: #2e2f42;
+  font-weight: 700;
+  font-size: 3.5em;
+  line-height: 3.75;
+  align-items: center;
+}
+
+.button-service {
+  background-color: #4d5ae5;
+  font-size: 1em;
+  line-height: 1.5em;
+}
+
+h3 {
+  color: #2e2f42;
+  font-weight: 500;
+  font-size: 1.25em;
+  line-height: 1.5em;
+}
+
+p {
+  color: #434455;
+  font-family: var(--text-font-family);
+  font-size: 1em;
+  line-height: 1.5em;
+}
+
+h2 {
+  color: #2e2f42;
+  font-weight: 700;
+  font-size: 2.25em;
+  line-height: 2.5em;
+}
+
+.team-section {
+  background-color: #f4f4fd;
+}
+
+.global-footer {
+  background-color: #2e2f42;
+}
+
+.logo-footer {
+  color: #f4f4fd;
+  font-family: var(--second-family);
+  font-weight: 800;
+}
+
+.logo-footer::before {
+  content: "WEB";
+  color: #4d5ae5;
+  font-family: var(--second-family);
+  font-weight: 800;
+}
+
+.global-footer .paragraph-footer {
+  color: #f4f4fd;
+}

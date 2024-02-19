@@ -1,0 +1,117 @@
+:root {
+  --link-color: #2e2f42;
+  --link-color_hover: ;
+  --font-family: "Roboto", sans-serif;
+  --second-family: "Raleway", sans-serif;
+}
+
+* {
+  font-family: var(--font-family);
+  font-weight: 400;
+}
+
+a:link,
+a:visited {
+  cursor: pointer;
+}
+
+.global-header {
+  background-color: #ffffff;
+}
+
+.global-header .main-nav a,
+.global-header .main-nav:visited {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.global-header .contact,
+.global-header .contact:visited {
+  color: var(--link-color);
+  font-size: 1em;
+  line-height: 1.5em;
+}
+
+.logo-header {
+  color: #2e2f42;
+  font-family: var(--second-family);
+  font-weight: 800;
+}
+
+.logo-header::before {
+  content: "WEB";
+  color: #4d5ae5;
+  font-family: var(--second-family);
+  font-weight: 800;
+}
+
+.global-header .contact .global-header .contact:visited {
+  color: var(--link-color);
+}
+
+.all-section .all-button {
+  cursor: pointer;
+  background-color: #404bbf;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 1em;
+  line-height: 1.5em;
+  initial-letter-align: 4%;
+  align-content: center;
+}
+
+.all-section button {
+  cursor: pointer;
+  background-color: #f4f4fd;
+  color: #4d5ae5;
+  font-weight: 500;
+  font-size: 1em;
+  line-height: 1.5em;
+  initial-letter-align: 4%;
+  align-content: center;
+}
+
+h3 {
+  color: #2e2f42;
+  font-weight: 500;
+  font-size: 1.25em;
+  line-height: 1.6em;
+}
+
+p {
+  color: #434455;
+  font-size: 1em;
+  line-height: 1.5em;
+}
+
+.global-footer {
+  background-color: #2e2f42;
+}
+
+.logo-footer {
+  color: #f4f4fd;
+  font-family: var(--second-family);
+  font-weight: 800;
+}
+
+.logo-footer::before {
+  content: "WEB";
+  color: #4d5ae5;
+  font-family: var(--second-family);
+  font-weight: 800;
+}
+
+.global-footer .paragraph-footer {
+  color: #f4f4fd;
+}
